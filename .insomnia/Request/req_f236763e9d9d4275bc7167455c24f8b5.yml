@@ -1,0 +1,55 @@
+_id: req_f236763e9d9d4275bc7167455c24f8b5
+type: Request
+parentId: wrk_8ea496f281a5457e97de70a9c722f886
+modified: 1672841932706
+created: 1668957178716
+url: http://localhost:5000/webhook
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "passphrase": "Phatballz69",
+        "time": "2020-09-06T01:44:17Z",
+        "exchange": "BINANCE",
+        "ticker": "DOGEUSDT",
+        "bar": {
+            "time": "2020-09-06T01:43:00Z",
+            "open": 0.002748,
+            "high": 0.0027486,
+            "low": 0.002748,
+            "close": 100000,
+            "volume": 150177
+        },
+        "strategy": {
+            "position_size": 100,
+            "order_action": "buy",
+            "order_contracts": 10000,
+            "order_price": 1500,
+            "order_id": "doge door",
+            "market_position": "long",
+            "market_position_size": 10000,
+            "prev_market_position": "flat",
+            "prev_market_position_size": 0
+        }
+    }
+parameters: []
+headers:
+  - id: pair_15374c73f8744a94a693aa58be7b2843
+    name: ""
+    value: ""
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_e80afdb2e438431c90b6da33cab872cf
+authentication: {}
+metaSortKey: -1668957178716
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
